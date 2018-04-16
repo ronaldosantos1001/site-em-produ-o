@@ -1,0 +1,127 @@
+/*corpo*/
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+	
+    font-family: 'Elsie', cursive;
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    text-shadow:0 0 10px rgba(0,0,0,0.7);
+
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Define backgrounds dos divs */
+#inicio {background-image: url(../imagem/fundo.jpg);
+}
+#servico {
+    background-image: url(../imagem/fundo2.jpg);
+	background-size: cover;
+	
+    
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+
+}
+/** Formata o article que vai o texto **/
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+}
+.bgParallax article h1{
+ font-family: 'Sedgwick Ave', cursive;
+ font-size: 100px;
+text-shadow:0 0 10px rgba(0,102,204,0.4);
+}
+}
+/** formata texto **/
+article h1 {font-size:40px;}
+article p {line-height: 30px; font-size:20px; margin-top:15px;}
+article p a {color:#FFF; text-decoration:none; font-size:30px;}
+
+
+
+/*reset*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*nav*/
+nav#navigation{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: #333;
+	margin-top: 10px;
+}
+nav#navigation{
+	border-bottom: 5px solid #000;
+}
+nav#navigation ul li{
+	display: inline-block;
+}
+nav#navigation ul li a{
+	display: block;
+	padding: 15px;
+	padding-top: 20px;
+	color: #fff;
+	text-decoration: none;
+	font:  24px arial;
+}
+/*line*/
+span.line{
+	display: block;
+	position: absolute;
+	width: 65px;
+	height: 5px;
+	background: #06c;
+	bottom: 0;
+}
+
+/*Animação*/
+.anime{
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition:.5s;
+}
+.anime-start{
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
